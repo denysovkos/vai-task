@@ -1,0 +1,20 @@
+{
+  "name": "vai-task",
+  "version": "0.0.1",
+  "description": "vai task",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "jest --detectOpenHandles"
+  },
+  "author": "Denysov K",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.1.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13"
+  }
+}
